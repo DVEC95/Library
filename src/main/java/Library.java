@@ -24,4 +24,9 @@ public class Library {
         }
     }
 
+    public Book singleBook(){
+        return books.remove(0);
+    }
+
 }
+
